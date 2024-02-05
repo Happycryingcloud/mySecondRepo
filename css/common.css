@@ -1,1 +1,11 @@
-@import url('common.css')
+:root {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    }
+
+footer {
+    --footer-text-color: #fff;
+    --footer-bg-color: #000;}
+
+.footer {background-color: var (--primary-bg-color);
+    color: var (--primary-text-color)};
