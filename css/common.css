@@ -9,3 +9,32 @@ footer {
 
 .footer {background-color: var (--primary-bg-color);
     color: var (--primary-text-color)};
+    html {
+		--primary-text-color: #000;
+		--primary-bg-color: #fff;
+	}
+	footer {
+		--footer-text-color: #fff;
+		--fuuter-bg-color: #000;
+	}
+    
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --primary-font-size: 0.875rem;
+}
+
+
+html {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+}
+
+
+footer {
+    --footer-text-color: #fff;
+    --footer-bg-color: #000;
+}
+a {
+    text-decoration: none;
+}
+
