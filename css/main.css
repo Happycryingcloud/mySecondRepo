@@ -1,6 +1,46 @@
-body {
-    color: var(--primary-text-color); 
-    background: var(--primary-bg-color);
+h1, h2, h3 {
+    color: gray;
+}
+
+
+#main {
+    color: #e60202;
+}
+
+.h2 {
+    color: red;
+}
+
+.heading {
+    color: green;
+}
+section > p {
+    color: red;
+   }
+
+   section p {
+    font-size: 25px; 
   }
-
-
+  h2:first-of-type {
+    color: indigo;
+  }
+  p.first a {
+    color: green;
+  }
+  
+  p.first .first a {
+    color: green;
+  }
+  div + p {
+    color: salmon;
+  }
+  
+  .translucent-box {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: hsla(0, 100%, 50%, 0.5); 
+    z-index: -1; 
+}
