@@ -25,24 +25,54 @@ a:focus {
 
 
 
-ul li:not(.first-item) {
+
+ol li:nth-child(2) {
     color: orange;
 }
 
 
-ul li {
-    color: black;
-    background-color: yellow;
+ol li:nth-child(even) {
+    color: orange;
 }
 
 
-ul li:last-child {
-    color: black;
-    background-color: yellow;
+ol li:nth-child(2n+6) {
+    color: orange;
+}
+.ua::before {
+    content: "Слава ";
+}
+.hero::after {
+    content: " Слава!";
+}
+.cont::before {
+    content: "\0A7";
 }
 
+:root {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    --primary-font-family: 'Roboto', sans-serif; 
+    --primary-font-size: 0.875rem;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
 
-ul li.first-item {
-    color: inherit; 
-    background-color: transparent; 
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+ul.categories li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul.categories li a:hover {
+    background-color: lightgray;
 }
