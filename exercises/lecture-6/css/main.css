@@ -29,6 +29,8 @@ input[type="number"]:invalid {
     background-color: rgba(234, 17, 17, 0.25); 
 }
 
-
+ul li:first-child {
+    color: orange;
+}
 
 
