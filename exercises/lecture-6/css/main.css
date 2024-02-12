@@ -21,15 +21,8 @@ a:focus {
 }
 
 
-input[type="number"] {
-    background-color: rgba(0, 255, 0, 0.25); 
-}
-
-input[type="number"]:invalid {
-    background-color: rgba(234, 17, 17, 0.25); 
-}
-
-ul li:first-child {
+ul li:first-of-type,
+ul li:nth-of-type(2) span {
     color: orange;
 }
 
