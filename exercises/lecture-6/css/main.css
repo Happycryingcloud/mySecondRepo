@@ -21,9 +21,9 @@ a:focus {
 }
 
 
-ul li:first-of-type,
-ul li:nth-of-type(2) span {
+
+
+ul li:last-child,
+ul li span:last-child {
     color: orange;
 }
-
-
