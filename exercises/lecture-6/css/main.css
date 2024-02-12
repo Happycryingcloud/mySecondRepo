@@ -1,0 +1,34 @@
+
+
+a {
+    color: indigo; 
+}
+
+a:visited {
+    color: gold; 
+}
+
+a:hover {
+    color: salmon; 
+}
+
+a:active {
+    color: red; 
+}
+
+a:focus {
+    color: orange; 
+}
+
+
+input[type="number"] {
+    background-color: rgba(0, 255, 0, 0.25); 
+}
+
+input[type="number"]:invalid {
+    background-color: rgba(234, 17, 17, 0.25); 
+}
+
+
+
+
