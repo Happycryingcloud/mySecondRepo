@@ -23,7 +23,26 @@ a:focus {
 
 
 
-ul li:last-child,
-ul li span:last-child {
+
+
+ul li:not(.first-item) {
     color: orange;
+}
+
+
+ul li {
+    color: black;
+    background-color: yellow;
+}
+
+
+ul li:last-child {
+    color: black;
+    background-color: yellow;
+}
+
+
+ul li.first-item {
+    color: inherit; 
+    background-color: transparent; 
 }
