@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome document</title>
+    <style>
+        div {
+          border: 10px dotted black;
+          padding: 15px;
+        }
+    
+        #example1 {
+          background: lightblue;
+          background-clip: border-box; 
+        }
+    
+        #example2 {
+          background: lightblue;
+          background-clip: padding-box; 
+        }
+    
+        #example3 p {
+      display: inline; 
+      background: lightblue; 
+      margin: 0; 
+      padding: 5px; 
+    }
+      </style>
+    </head>
+    <body>
+      <div id="example1">
+        <p>Правило для example1: фон всередині елемента має простягатися за межі рамки.</p>
+      </div>
+    
+      <div id="example2">
+        <p>Правило для example2: фон всередині елемента має простягатися до внутрішнього краю рамки.</p>
+      </div>
+    
+      <div id="example3">
+        <p>Правило для example3: фон всередині елемента має простягатися до краю поля вмісту.</p>
+      </div>
+    </body>
+    </html>
