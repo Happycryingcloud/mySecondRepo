@@ -1,0 +1,27 @@
+body {
+  --padding: 5vw;
+  --max-width: 180ch;
+}
+
+.flexbox {
+  --min: 30ch;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+.card {
+  flex: 1; 
+  min-width: var(--min); 
+  max-width: var(--max-width); 
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}

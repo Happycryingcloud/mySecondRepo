@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <style>
+        .wrapper {
+            display: flex;
+            width: 700px;
+        }
+
+        .item-blue {
+            background-color: blue; 
+            /* item-blue = (3 / 4) * 700px = 525px */
+            flex-grow: 3; 
+        }
+        .item-orange {
+            background-color: orange;  /*item-orange =700px - (525px + 175px)св= 0px*/
+        }
+        .item-green {
+            background-color: green; /* item-green = (1 / 4) * 700px = 175px*/
+            flex-grow: 1; 
+        }
+
+        .item {
+            color: white; 
+            flex-grow: 1; 
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Flex Property</h2>
+    <div class="wrapper">
+        <div class="item item-blue">CSS</div>
+        <div class="item item-orange">Flex</div>
+        <div class="item item-green">Property</div>
+    </div>
+</body>
+</html>
