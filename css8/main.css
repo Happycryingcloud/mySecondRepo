@@ -1,0 +1,36 @@
+section h2 {
+    width: max-content;
+  }
+  .box{ 
+    width: 300px; 
+    padding: 10px; 
+    border: dashed 2px green;
+  }
+  .first-box {
+    width: 200px;
+    height: 100px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+    
+  }
+  .second-box {
+    width: 200px;
+    height: 100px;
+    border: 8px solid blue;
+    background: yellow;
+  }
+  div{
+    box-sizing:content-box;
+    width: 200px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+  }
+  div{
+    box-sizing:border-box;
+    width: 200px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+  }

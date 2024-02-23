@@ -1,0 +1,42 @@
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    z-index: 1000; 
+}
+
+
+p:first-child {
+    margin-top: 70px; 
+}
+
+.static-position,
+.relative-position,
+.absolute-position {
+    margin-top: 3cm;
+}
+
+h2 {
+    position: static; 
+}
+
+dl {
+    position: static; 
+}
+
+dt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 1em 0;
+}
+
+dt:first-child {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
