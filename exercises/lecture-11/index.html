@@ -10,8 +10,9 @@
     <style>
         main {
             display: grid;
-            grid-template-rows: 90px 300px 1fr;
             grid-template-columns: repeat(4, 1fr);
+            justify-content: center; 
+            align-items: center; 
             gap: 10px;
             margin: 2vw 0;
         }
@@ -26,7 +27,6 @@
         }
         main div:nth-of-type(2) {
             background-color: #c9319e;
-            grid-column: 2;
         }
         main div:nth-of-type(3) {
             background-color: #c231c9;
