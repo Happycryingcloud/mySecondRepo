@@ -8,13 +8,14 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     
     <style>
-
         main {
             display: grid;
-            grid-template-rows: 95px 1fr 70px;
+            grid-template-rows: 90px 300px 1fr;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
             margin: 2vw 0;
         }
-            
+
         main div {
             color: #fff;
             padding: 5vh;
@@ -25,6 +26,7 @@
         }
         main div:nth-of-type(2) {
             background-color: #c9319e;
+            grid-column: 2;
         }
         main div:nth-of-type(3) {
             background-color: #c231c9;
@@ -62,25 +64,25 @@
     </style>
 </head>
 <body>
-  <header>
-      <h1>CSS Grid Layout</h1>
-  </header>
+    <header>
+        <h1>CSS Grid Layout</h1>
+    </header>
 
-  <main>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>10</div>
-    <div>11</div>
-    <div>12</div>
-    <div>13</div>
-  </main>
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+    </main>
 
 </body>
 </html>
