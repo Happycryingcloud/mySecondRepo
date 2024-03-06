@@ -1,0 +1,11 @@
+.card {
+    min-width: 100%;
+    max-width: min(var(--min), 1fr);
+  }
+  
+  .grid {
+    display: grid;
+    grid-auto-columns: minmax(var(--min), 1fr); 
+    gap: 1rem;
+  }
+  
