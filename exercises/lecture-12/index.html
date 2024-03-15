@@ -1,0 +1,32 @@
+```html
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic font-size</title>
+  <style>
+  * {
+    margin: 0;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    padding: 1em;
+  }
+
+  p {
+    font-size: clamp(16px, calc(1rem + 2vw), 48px);
+  }
+  </style>
+</head>
+
+<body translate="no">
+<p>
+  This text has a font size of 20px at viewport width of 768px and font size of 36px when viewport width is 1920px. But if the viewport width is less than 768px, the font-size won't get lower than 16px and if the viewport width is more than 1920px font size will stop scaling at 48px.
+</p>
+
+</body>
+</html>
+```
