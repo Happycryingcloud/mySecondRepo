@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сума двох чисел</title>
+</head>
+<body>
+    <h2>Введіть значення двох чисел</h2>
+
+    <script>
+        
+        var x = prompt("Введіть перше число:");
+        var y = prompt("Введіть друге число:");
+
+       
+        x = parseFloat(x);
+        y = parseFloat(y);
+
+        
+        if (isNaN(x) || isNaN(y)) {
+            alert("Будь ласка, введіть числа!");
+        } else {
+            
+            var sum = x + y;
+            alert("Сума чисел " + x + " та " + y + " дорівнює: " + sum);
+        }
+    </script>
+
+</body>
+</html>
