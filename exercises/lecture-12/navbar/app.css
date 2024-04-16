@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+    .col-3 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .col-3 > * {
+      width: 100%;
+    }
+  }
+  
