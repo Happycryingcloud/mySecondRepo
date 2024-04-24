@@ -1,0 +1,103 @@
+.accounts {
+  background-color: #fdf7f0;
+}
+
+.centering_accounts {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 180px auto;
+}
+
+.accounts_slogan {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #3e3e42;
+  margin: 0 20%;
+  text-align: center;
+}
+
+.accounts_header {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 50px;
+  color: #374f4c;
+  margin: 12px 20%;
+  text-align: center;
+}
+
+.accounts_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  list-style: none;
+  background-image: url(../Pictures/accountsBacground.png);
+  background-repeat: no-repeat;
+  padding: 112px 30px;
+  margin: 0;
+}
+
+.accounts_item {
+  width: 30%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #374f4c;
+}
+
+.aka {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e3e42;
+  margin: 30px 0 0;
+}
+
+.conditions {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e3e42;
+  margin: 30px 0 14px;
+}
+
+.accounts_btn {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e3e42;
+  padding: 10px 21px;
+  border: solid 1px #f8f9fa;
+  border-radius: 60px;
+}
+
+.accounts_btn:hover {
+  border: none;
+}
+
+.get_started_pic {
+    width: 100%;
+}
+
+.get_started {
+  position: absolute;
+  bottom: 273px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 85px;
+  color: #ede5dc;
+  margin: 0 auto;
+}

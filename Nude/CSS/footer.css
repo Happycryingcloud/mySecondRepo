@@ -1,0 +1,23 @@
+footer {
+    background-color: #F3DCC4;
+}
+
+.logo {
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #3E3E42;
+}
+
+.logo span {
+    position: absolute;
+top: 6px;
+    font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #212529;
+}
+
